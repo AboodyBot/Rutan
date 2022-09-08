@@ -2,7 +2,7 @@ import telebot
 import requests
 import time
 from telebot import types
-bot = telebot.TeleBot('5496942470:AAEX7Z7vO37RCnORERaHwenwYURaMrOaUBs')
+bot = telebot.TeleBot('5496942470:AAGpQimJH4Ox2GoKm4T5j0NhYxN8OVk6On8')
 @bot.message_handler(regexp="ايدي")
 def text(message):
 	f2 = message.from_user.first_name 
